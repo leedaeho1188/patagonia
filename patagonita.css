@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        body,h1,h2,h3,p,a {
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        .up {
+            background-color: #500778;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .up > a:first-child {
+            margin-left: auto;
+        }
+        .up > a:last-child {
+            margin-right: 20px;
+        }
+        .up > a {
+            margin-right: 15px;
+            color: white;
+        }
+        .up > span {
+            color: white;
+            margin-right: 15px;
+        }
+        .down {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            height: 70px;
+        }
+        .down > .icons {
+            margin-left: auto;
+        }
+        .down > img {
+            width: 130px;
+            margin-left: 20px;
+        }
+        .down > a {
+            margin-left: 80px;
+            font-weight: 900;
+            color: black;
+        }
+        .down > form {
+            margin-left: 80px;
+            width: 500px;
+        }
+        .down > .icons > i {
+            margin-right: 20px;
+            font-size: 24px;
+        }
+        .main > img {
+            width: 100%;
+        }
+        .items {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: 30px;
+        }
+        .list-group > span {
+            font-size: 25px;
+            margin-left: 15px;
+        }
+
+        .list-group-item {
+          list-style: none;
+          font-size: 17px;
+          
+        }
+
+        .imgs {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+
+            margin-left: 100px;
+            margin-right: auto;
+        }
+        .imgs > .card {
+            margin-right: 10px;
+        }
